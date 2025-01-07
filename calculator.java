@@ -4,6 +4,11 @@ import java.util.*;
 import java.util.scanner;
 
 public class calculator {
+
+
+  public static int addition(int a, int b){
+         return(a+b)
+        }
   public static void main(String[] args) {
 
     int num1, num2;
@@ -26,7 +31,7 @@ public class calculator {
         switch (op) {
             // case to add two numbers
             case '+':
-                o = num1 + num2;
+                o = addition(a,b);
                 break;
      
             // case to subtract two numbers
